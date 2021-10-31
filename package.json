@@ -1,0 +1,33 @@
+{
+    "name": "slack-test",
+    "version": "0.0.1",
+    "description": "Slack game",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test given\" && exit 1"
+    },
+    "dependencies": {
+        "@slack/client": "^5.0.2",
+        "@slack/events-api": "^3.0.1",
+        "@slack/interactive-messages": "^2.0.2",
+        "express": "^4.17.1",
+        "fastify": "^3.22.1",
+        "fastify-formbody": "^5.1.0",
+        "fastify-static": "^4.4.2",
+        "handlebars": "^4.7.7",
+        "point-of-view": "^4.15.2"
+    },
+    "engines": {
+        "node": "12.x"
+    },
+    "repository": {
+        "url": "https://glitch.com/edit/#!/glitch-hello-node"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "Slack",
+        "express"
+    ]
+}
